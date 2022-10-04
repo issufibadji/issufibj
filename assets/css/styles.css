@@ -302,8 +302,6 @@ img {
     font-size: var(--big-font-size);
 }
 
-
-/*
 @keyframes cursorFlashes {
     0%,
     100% {
@@ -313,7 +311,6 @@ img {
         opacity: 0;
     }
 }
-*/
 
 .home__subtitle {
     font-size: var(--h3-font-size);
@@ -322,15 +319,13 @@ img {
     margin-bottom: var(--mb-0-75);
 }
 
-
-/* 
-.home-title::after,
-.home-subtitle::after {
-  content: "|";
-  margin-left: 0.25rem;
-  opacity: 1;
-  animation: cursorFlashes 0.7s infinite;
-}*/
+.home__title::after,
+.home__subtitle::after {
+    content: "|";
+    margin-left: 0.25rem;
+    opacity: 1;
+    animation: cursorFlashes 0.7s infinite;
+}
 
 .home__description {
     margin-bottom: var(--mb-2);
